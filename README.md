@@ -105,7 +105,7 @@ WHOIS is a domain lookup tool used to gather publicly available domain registrat
 **Command:**
 
 ```bash
-whois example.com
+whois networkwalks.com
 ```
 
 **📸 Practical Output**
@@ -132,15 +132,15 @@ NSLookup is a command-line utility used to query DNS servers and retrieve inform
 **Commands:**
 
 ```bash
-nslookup example.com
+nslookup networkwalks.com
 
-nslookup -type=A example.com
+nslookup -type=A networkwalks.com
 
-nslookup -type=MX example.com
+nslookup -type=MX networkwalks.com
 
-nslookup -type=NS example.com
+nslookup -type=NS networkwalks.com
 
-nslookup -type=TXT example.com
+nslookup -type=TXT networkwalks.com
 ```
 
 **📸 Practical Output**
@@ -168,13 +168,13 @@ WhatWeb is a website fingerprinting tool used to identify technologies and softw
 **Commands:**
 
 ```bash
-whatweb https://example.com
+whatweb https://networkwalks.com
 ```
 
 Aggressive scan:
 
 ```bash
-whatweb -a 3 https://example.com
+whatweb -a 3 https://networkwalks.com
 ```
 
 **📸 Practical Output**
@@ -200,13 +200,13 @@ WAFW00F is a web application firewall fingerprinting tool used to identify wheth
 **Commands:**
 
 ```bash
-wafw00f https://example.com
+wafw00f https://networkwalks.com
 ```
 
 Verbose output:
 
 ```bash
-wafw00f -v https://example.com
+wafw00f -v https://networkwalks.com
 ```
 
 **📸 Practical Output**
@@ -235,19 +235,19 @@ DNSRecon is a DNS reconnaissance and enumeration tool used to collect informatio
 **Commands:**
 
 ```bash
-dnsrecon -d example.com
+dnsrecon -d networkwalks.com
 ```
 
 Standard enumeration:
 
 ```bash
-dnsrecon -d example.com -t std
+dnsrecon -d networkwalks.com -t std
 ```
 
 Zone transfer check:
 
 ```bash
-dnsrecon -d example.com -t axfr
+dnsrecon -d networkwalks.com -t axfr
 ```
 
 **📸 Practical Output**
